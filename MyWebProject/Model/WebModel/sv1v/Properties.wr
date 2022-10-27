@@ -1,3 +1,5 @@
-<SiteView id="sv1v" name="Site View 1" homePage="sv1v#page1v">
-  <OperationUnits/>
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1v" name="Site View 1" homePage="sv1v#page1v">
+  <OperationUnits>
+    <ScriptUnit gr:x="500" gr:y="160" id="sv1v#scu1v" name="Script1"/>
+  </OperationUnits>
 </SiteView>
