@@ -47,4 +47,13 @@
       <Attribute id="pkg1v#ent2v#att2v" name="oid" key="true" type="integer"/>
     </Entity>
   </Package>
+  <Relationship id="rel2v" name="Entity2_Entity3" sourceEntity="pkg1v#ent2v" targetEntity="pkg2v#ent3v">
+    <RelationshipRole1 id="rel2v#role3v" name="Entity2ToEntity3" maxCard="N"/>
+    <RelationshipRole2 id="rel2v#role4v" name="Entity3ToEntity2" maxCard="N"/>
+  </Relationship>
+  <Package id="pkg2v" name="package2" gr:x="945" gr:y="80">
+    <Entity id="pkg2v#ent3v" name="Entity3" duration="persistent" gr:x="0" gr:y="0">
+      <Attribute id="pkg2v#ent3v#att3v" name="oid" key="true" type="integer"/>
+    </Entity>
+  </Package>
 </DataModel>
