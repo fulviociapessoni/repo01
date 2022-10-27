@@ -1,4 +1,4 @@
-<DataModel xmlns:gr="http://www.webratio.com/2006/WebML/Graph">
+<DataModel xmlns:db="http://www.webratio.com/2006/WebML/Database" xmlns:gr="http://www.webratio.com/2006/WebML/Graph">
   <Entity id="User" name="User" duration="persistent" gr:x="20" gr:y="158" gr:hideAttributes="false" attributeOrder="userOID userName password email">
     <Attribute name="oid" id="userOID" type="integer" key="true"/>
     <Attribute name="userName" id="userName" type="string"/>
@@ -34,4 +34,17 @@
     <Attribute id="ent1v#att1v" key="true" name="oid" type="integer"/>
     <Attribute id="ent1v#att2v" name="attribute2" type="string"/>
   </Entity>
+  <db:Database id="db1v" name="Database1"/>
+  <Relationship id="rel1v" name="Entity1_Entity2" sourceEntity="pkg1v#ent1v" targetEntity="pkg1v#ent2v">
+    <RelationshipRole1 id="rel1v#role1v" name="Entity1ToEntity2" maxCard="N"/>
+    <RelationshipRole2 id="rel1v#role2v" name="Entity2ToEntity1" maxCard="N"/>
+  </Relationship>
+  <Package id="pkg1v" name="package1" gr:x="750" gr:y="85">
+    <Entity id="pkg1v#ent1v" name="Entity1" duration="persistent" gr:x="0" gr:y="0">
+      <Attribute id="pkg1v#ent1v#att1v" name="oid" key="true" type="integer"/>
+    </Entity>
+    <Entity id="pkg1v#ent2v" name="Entity2" duration="persistent" gr:x="10" gr:y="125">
+      <Attribute id="pkg1v#ent2v#att2v" name="oid" key="true" type="integer"/>
+    </Entity>
+  </Package>
 </DataModel>
