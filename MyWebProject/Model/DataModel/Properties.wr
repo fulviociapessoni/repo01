@@ -30,4 +30,8 @@
     <RelationshipRole1 id="Group2Module" name="modules" maxCard="N"/>
     <RelationshipRole2 id="Module2Group" name="groups" maxCard="N"/>
   </Relationship>
+  <Entity gr:x="190" gr:y="385" id="ent1v" name="Entity1" duration="persistent" attributeOrder="ent1v#att1v ent1v#att2v">
+    <Attribute id="ent1v#att1v" key="true" name="oid" type="integer"/>
+    <Attribute id="ent1v#att2v" name="attribute2" type="string"/>
+  </Entity>
 </DataModel>

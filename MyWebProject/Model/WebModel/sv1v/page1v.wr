@@ -1,0 +1,27 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="290" gr:y="115" id="sv1v#page1v" name="Home">
+  <ContentUnits>
+    <DataUnit gr:x="0" gr:y="0" id="sv1v#page1v#dau1v" name="Details1" entity="ent1v">
+      <Selector id="sv1v#page1v#dau1v#su1v" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1v#page1v#dau1v#su1v#kcond1v" name="KeyCondition1" predicate="in" implied="false"/>
+      </Selector>
+    </DataUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1v#page1v#dau1v"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>
