@@ -62,4 +62,7 @@
   <Entity gr:x="235" gr:y="40" id="ent1" name="666" duration="persistent">
     <Attribute id="ent1#att1" key="true" name="oid" type="integer"/>
   </Entity>
+  <Entity gr:x="230" gr:y="90" id="ent2" name="A" duration="persistent">
+    <Attribute id="ent2#att2" key="true" name="oid" type="integer"/>
+  </Entity>
 </DataModel>
