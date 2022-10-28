@@ -56,4 +56,7 @@
       <Attribute id="pkg2v#ent3v#att3v" name="oid" key="true" type="integer"/>
     </Entity>
   </Package>
+  <Entity gr:x="70" gr:y="40" id="ent4v" name="Entity4" duration="persistent">
+    <Attribute id="ent4v#att4v" key="true" name="oid" type="integer"/>
+  </Entity>
 </DataModel>
