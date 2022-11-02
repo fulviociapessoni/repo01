@@ -11,7 +11,8 @@
     <AssociationRole1 id="WUser2WRole" name="AppUserToAppRole" maxCard="N"/>
     <AssociationRole2 id="WRole2WUser" name="AppRoleToAppUser" maxCard="1"/>
   </Association>
-  <Class gr:x="200" gr:y="325" id="cls1y" name="C2">
+  <Class gr:x="200" gr:y="325" id="cls1y" name="C1">
     <Attribute id="cls1y#att1y" key="true" name="oid" type="integer"/>
   </Class>
+  <Property id="prop1y" name="Property 1"/>
 </DomainModel>
