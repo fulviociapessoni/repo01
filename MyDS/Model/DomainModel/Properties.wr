@@ -8,7 +8,7 @@
   <ActionServices/>
   <DataServices db:dataServicesDatabase="dbD1"/>
   <UserServices/>
-  <db:Database id="dbD1" name="Database1"/>
+  <db:Database id="dbD1" name="Database1" type="PostgreSQL 9 - 12" url="ddddddddd" username="aaaaaaaaaaaa" password="dddddddddddddd"/>
   <srs:Resources>
     <srs:AuthService name="Read My Profile" serverResourceName="auth/myProfile" method="read" ref="_identity__me_">
       <srs:AuthServiceOutput name="User ID" serverProperty="userID" ref="_identity__me_$userID" key="true" keyTemplate="{userID?}" location="body" cardinality="1" type="string"/>
@@ -374,4 +374,13 @@
       <srs:AuthServiceError name="Error Message" serverProperty="error-message" ref="_redirectUri_delete$errorMessage" location="body" cardinality="1" type="string"/>
     </srs:AuthService>
   </srs:Resources>
+  <Class id="cls3a" name="Class 3" duration="persistent" gr:x="65" gr:y="125">
+    <Attribute id="cls3a#att3a" key="true" name="oid" type="integer"/>
+  </Class>
+  <Class id="cls4a" name="Class 4" duration="persistent" gr:x="190" gr:y="205">
+    <Attribute id="cls4a#att4a" key="true" name="oid" type="integer"/>
+  </Class>
+  <Class id="cls5a" name="Class 5" duration="persistent" gr:x="40" gr:y="70">
+    <Attribute id="cls5a#att5a" key="true" name="oid" type="integer"/>
+  </Class>
 </DomainModel>
